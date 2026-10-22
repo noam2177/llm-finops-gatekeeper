@@ -3,6 +3,7 @@
 > **CPU senior-role gate + tiered local/cloud LLM extraction** for scraped job postings.
 > Spend cloud budget only on eligible Junior/Mid roles, with strict `JobPostingSchema` validation.
 
+[![CI](https://github.com/noam2177/llm-finops-gatekeeper/actions/workflows/ci.yml/badge.svg)](https://github.com/noam2177/llm-finops-gatekeeper/actions/workflows/ci.yml)
 [![Repo](https://img.shields.io/badge/GitHub-llm--finops--gatekeeper-181717?logo=github)](https://github.com/noam2177/llm-finops-gatekeeper)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)
 ![Pydantic v2](https://img.shields.io/badge/pydantic-v2-e92063)
