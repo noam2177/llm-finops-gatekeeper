@@ -1,0 +1,13 @@
+JOB_POSTING_SCRAPE
+Title: Machine Learning Developer
+Seniority: mid
+Remote: yes
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: TensorFlow|GCP|FastAPI
+
+Requirements:
+- Build APIs around models
+

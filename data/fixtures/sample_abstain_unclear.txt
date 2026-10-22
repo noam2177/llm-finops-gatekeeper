@@ -1,0 +1,11 @@
+JOB_POSTING_SCRAPE
+Title: Mystery AI Role
+Seniority: mid
+Remote: no
+
+About the role
+We are hiring but the requirements section failed to scrape.
+Tech stack: Python
+Requirements:
+[mock:empty_requirements]
+[mock:unrecoverable]

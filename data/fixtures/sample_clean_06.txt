@@ -1,0 +1,13 @@
+JOB_POSTING_SCRAPE
+Title: Junior NLP Engineer
+Seniority: junior
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: spaCy|Hugging Face|Python
+
+Requirements:
+- Text preprocessing pipelines
+

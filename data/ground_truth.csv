@@ -1,0 +1,21 @@
+filename,scenario,description,expected_status,expected_resolved_by,expected_job_title,expected_seniority,expected_tech_stack
+sample_blocked_senior_engineer.txt,A,Senior in title,BLOCKED,gate,,,
+sample_blocked_principal.txt,A,Principal level cue,BLOCKED,gate,,,
+sample_blocked_staff.txt,A,Staff engineer cue,BLOCKED,gate,,,
+sample_blocked_sr_abbrev.txt,A,Sr. abbreviation,BLOCKED,gate,,,
+sample_blocked_scrape_noise.txt,A,Not a job posting (newsletter scrape),BLOCKED,gate,,,
+sample_clean_01.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,Junior AI Developer,junior,Python|LLMs|Pydantic
+sample_clean_02.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,Mid-level ML Engineer,mid,Python|scikit-learn|Docker
+sample_clean_03.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,AI Automation Intern,intern,Python|Playwright|OpenAI API
+sample_clean_04.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,Associate Data Scientist,associate,SQL|pandas|Jupyter
+sample_clean_05.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,Machine Learning Developer,mid,TensorFlow|GCP|FastAPI
+sample_clean_06.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,Junior NLP Engineer,junior,spaCy|Hugging Face|Python
+sample_clean_07.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,AI Tools Engineer,mid,TypeScript|Node.js|LangChain
+sample_clean_08.txt,B,"Eligible posting, local model passes JobPostingSchema",SUCCESS,local,MLOps Associate,associate,Kubernetes|MLflow|Python
+sample_escalation.txt,C,Local returns tech_stack as string,SUCCESS,cloud,Junior AI Developer,junior,Python|FastAPI|OpenAI API
+sample_escalation_truncated.txt,C,Local emits truncated JSON,SUCCESS,cloud,Mid-level Prompt Engineer,mid,Python|LangChain|vector DBs
+sample_escalation_empty_reqs.txt,C,Local returns empty requirements list,SUCCESS,cloud,AI Developer,mid,Python|pytest|LLMs
+sample_escalation_tech_string_2.txt,C,Second tech-as-string escalation path,SUCCESS,cloud,Automation Engineer,junior,Python|RPA|REST APIs
+sample_abstain_unclear.txt,D,Cloud cannot recover missing requirements,ABSTAIN,none,,,
+sample_abstain_corrupted.txt,D,Both tiers return invalid JSON,ABSTAIN,none,,,
+sample_abstain_missing_tech.txt,D,No technologies in scrape; cloud unrecoverable,ABSTAIN,none,,,

@@ -1,0 +1,14 @@
+JOB_POSTING_SCRAPE
+Title: Automation Engineer
+Seniority: junior
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: Python|RPA|REST APIs
+
+Requirements:
+- Build internal tools
+- Document automations
+[mock:tech_string]

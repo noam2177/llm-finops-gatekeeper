@@ -1,0 +1,14 @@
+JOB_POSTING_SCRAPE
+Title: Junior AI Developer
+Seniority: junior
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: Python|LLMs|Pydantic
+
+Requirements:
+- 1+ years Python
+- Familiarity with LLMs
+

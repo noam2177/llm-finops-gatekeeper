@@ -1,0 +1,14 @@
+JOB_POSTING_SCRAPE
+Title: Mid-level ML Engineer
+Seniority: mid
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: Python|scikit-learn|Docker
+
+Requirements:
+- Ship models to production
+- Write unit tests
+

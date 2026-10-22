@@ -1,0 +1,14 @@
+JOB_POSTING_SCRAPE
+Title: AI Developer
+Seniority: mid
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: Python|pytest|LLMs
+
+Requirements:
+- Write clean Python
+- Test AI solutions
+[mock:empty_requirements]

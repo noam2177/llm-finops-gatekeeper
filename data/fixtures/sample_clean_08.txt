@@ -1,0 +1,14 @@
+JOB_POSTING_SCRAPE
+Title: MLOps Associate
+Seniority: associate
+Remote: no
+
+About the role
+We are hiring for this position. Apply now via our careers page.
+
+Tech stack: Kubernetes|MLflow|Python
+
+Requirements:
+- Monitor model drift
+- CI for ML
+

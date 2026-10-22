@@ -1,0 +1,9 @@
+JOB_POSTING_SCRAPE
+Title: Platform Engineer
+Seniority: Mid
+Remote: yes
+
+Staff Engineer — platform reliability
+We are hiring. Tech stack: Go, Terraform
+Requirements:
+- On-call rotation experience

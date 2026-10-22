@@ -1,0 +1,9 @@
+JOB_POSTING_SCRAPE
+Title: Generic Analyst
+Seniority: associate
+Remote: hybrid
+
+About the role
+Apply now. Requirements:
+- Strong communication
+[mock:unrecoverable]
