@@ -27,10 +27,17 @@ This pipeline:
 | Routing accuracy (fixtures) | **20/20** |
 | Hallucinations accepted | **0** |
 
+## Clone
+
 ```bash
-git clone https://github.com/noam2177/ai-job-posting-filter.git
-cd ai-job-posting-filter
+git clone https://github.com/noam2177/llm-finops-gatekeeper.git
+cd llm-finops-gatekeeper
 pip install -e ".[dev]"
+```
+
+## Run
+
+```bash
 python -m gatekeeper benchmark --dry-run
 python -m gatekeeper extract --file data/fixtures/sample_escalation.txt --dry-run --explain
 pytest
