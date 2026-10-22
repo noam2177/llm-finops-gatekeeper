@@ -28,6 +28,8 @@ This pipeline:
 | Hallucinations accepted | **0** |
 
 ```bash
+git clone https://github.com/noam2177/ai-job-posting-filter.git
+cd ai-job-posting-filter
 pip install -e ".[dev]"
 python -m gatekeeper benchmark --dry-run
 python -m gatekeeper extract --file data/fixtures/sample_escalation.txt --dry-run --explain
