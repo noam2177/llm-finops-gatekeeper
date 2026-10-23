@@ -35,6 +35,10 @@ git push
 
 Copy from `docs/ci-workflow.example.yml` if the workflow file is missing locally.
 
+## Task board (sandbox)
+
+Tracked as `SBX-006` (done) … `SBX-010` in `BOUND_SANDBOX_ONLY.tasks.json`. Mirror: [`docs/TASKS.md`](TASKS.md).
+
 ## Demo commands (screen record ~90s)
 
 ```bash
